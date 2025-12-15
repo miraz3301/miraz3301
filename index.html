@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Miraz | CV</title>
+
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #020617, #0f172a);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+      background: var(--card);
+      border-radius: 18px;
+      padding: 40px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .header h1 {
+      font-size: 2.4rem;
+      letter-spacing: 1px;
+      color: var(--accent);
+    }
+
+    .header p {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    /* Sections */
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      font-size: 1.3rem;
+      margin-bottom: 15px;
+      border-left: 4px solid var(--accent);
+      padding-left: 12px;
+      color: #f8fafc;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .card {
+      background: #020617;
+      padding: 16px 18px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.05);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(56,189,248,0.15);
+    }
+
+    .label {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .value {
+      font-size: 1.05rem;
+      font-weight: 500;
+    }
+
+    /* Links */
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: var(--accent);
+      background: #020617;
+      padding: 10px 16px;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      border: 1px solid rgba(56,189,248,0.3);
+      transition: all 0.25s ease;
+    }
+
+    .links a:hover {
+      background: var(--accent);
+      color: #020617;
+      box-shadow: 0 0 15px rgba(56,189,248,0.5);
+    }
+
+    /* Footer */
+    .footer {
+      margin-top: 35px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      <h1>Md Miraz Morshed</h1>
+      <p>Computer Science & Engineering Student | Competitive Programmer</p>
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+      <h2>Education</h2>
+      <div class="info-grid">
+        <div class="card">
+          <div class="label">University</div>
+          <div class="value">Military Institute of Science and Technology</div>
+        </div>
+        <div class="card">
+          <div class="label">College</div>
+          <div class="value">Rangpur Govt. College</div>
+        </div>
+        <div class="card">
+          <div class="label">School</div>
+          <div class="value">Rangpur Zilla School</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Competitive Programming -->
+    <div class="section">
+      <h2>Competitive Programming</h2>
+      <div class="links">
+        <a href="https://codeforces.com/profile/miraz3301" target="_blank">Codeforces</a>
+        <a href="https://www.codechef.com/users/miraz3301" target="_blank">CodeChef</a>
+        <a href="https://atcoder.jp/users/Miraz3301" target="_blank">AtCoder</a>
+        <a href="https://vjudge.net/user/Miraz3301" target="_blank">VJudge</a>
+      </div>
+    </div>
+
+    <!-- Social & Dev Links -->
+    <div class="section">
+      <h2>Links & Profiles</h2>
+      <div class="links">
+        <a href="https://github.com/miraz3301" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/miraz3301" target="_blank">LinkedIn</a>
+        <a href="https://www.facebook.com/miraz3301" target="_blank">Facebook</a>
+        
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      © 2025 • miraz3301.dpdns.org • Hosted on GitHub Pages
+    </div>
+
+  </div>
+
+</body>
+</html>
